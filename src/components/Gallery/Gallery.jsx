@@ -10,7 +10,7 @@ const galleryImages = [img1, img2, img3, img4, img5, img6];
 
 export default function Gallery() {
   return (
-    <section className="bg-white py-16 px-6 md:px-12 lg:px-24">
+    <section className="bg-white py-16 px-6 md:px-12 lg:px-24" id='gallery'>
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 flex items-center justify-center gap-2">
           <Camera className="w-7 h-7 text-indigo-600" />

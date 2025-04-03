@@ -42,7 +42,7 @@ const services = [
 
 export default function SectionServices() {
   return (
-    <section className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24">
+    <section className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24" id='services'>
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 flex items-center justify-center gap-2">
           <ClipboardList className="w-7 h-7 text-indigo-600" />

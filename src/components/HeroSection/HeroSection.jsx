@@ -1,12 +1,9 @@
 import heroImage from '../../assets/images/heroImage.webp';
-import Header from '../Header/Header';
-import { User, Sparkles } from 'lucide-react';
 import ReservationButton from '../ReservationButton/ReservationButton';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-white min-h-[600px] overflow-hidden">
-      <Header />
+    <section className="relative bg-white min-h-[600px] overflow-hidden" id='hero'>
       <div className="grid grid-cols-1 md:grid-cols-2 items-stretch h-full gap-6">
         <div className="px-8 md:px-16 flex flex-col justify-center gap-6">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">

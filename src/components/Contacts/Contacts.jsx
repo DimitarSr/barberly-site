@@ -14,7 +14,6 @@ export default function Contacts() {
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-gray-700 text-center flex-wrap">
-
         <div className="flex items-center gap-2">
           <MapPin className="w-5 h-5 text-indigo-600" />
           <span>ул. “Барбърска” 15, София</span>
@@ -30,7 +29,6 @@ export default function Contacts() {
           <span>0888 123 456</span>
         </div>
 
-
         <a
           href="https://www.instagram.com/yourbarberpage"
           target="_blank"
@@ -42,19 +40,18 @@ export default function Contacts() {
         </a>
       </div>
 
-<div className="mt-12 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-md">
-  <iframe
-    title="Локация на Barberly"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1466.1120386800958!2d23.299757472294797!3d42.698975896837474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85489d15cfb7%3A0xcddb066725dd245e!2sg.k.%20Zona%20B-19%2C%20ul.%20%22Pozitano%22%20140-142%2C%201309%20Sofia!5e0!3m2!1sen!2sbg!4v1743677275718!5m2!1sen!2sbg"
-    width="100%"
-    height="350"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
-
+      <div className="mt-12 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-md">
+        <iframe
+          title="Локация на Barberly"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1466.1120386800958!2d23.299757472294797!3d42.698975896837474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85489d15cfb7%3A0xcddb066725dd245e!2sg.k.%20Zona%20B-19%2C%20ul.%20%22Pozitano%22%20140-142%2C%201309%20Sofia!5e0!3m2!1sen!2sbg!4v1743677275718!5m2!1sen!2sbg"
+          width="100%"
+          height="350"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
   );
 }
