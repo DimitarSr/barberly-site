@@ -2,7 +2,7 @@ import { ClipboardList } from 'lucide-react';
 import Beard from '../../assets/images/beard.png';
 import Child from '../../assets/images/child-cut.png';
 import Men from '../../assets/images/men-cut.png'
-import Combo from '../../assets/images/hair-Beard.png'
+import Combo from '../../assets/images/hair-beard.png'
 import FaceMask from '../../assets/images/facemask.png'
 import HotTowel from '../../assets/images/hot-towel.png'
 
